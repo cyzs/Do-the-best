@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*样式重置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a{
+    color:#3c3c3c;
+    text-decoration: none;
+}

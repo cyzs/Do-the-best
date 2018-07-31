@@ -1,0 +1,368 @@
+/*=====第一个页面=====*/
+body{
+    background:url("../img/晴空.jpg") no-repeat ;
+    background-size:cover;
+}
+/*==>s 标题*/
+.first .wrap{
+    width: 1300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.first .wrap .title{
+    /*margin-left: -80px;*/
+    width: 500px;
+    font-size: 45px;
+    font-family: "Microsoft JhengHei UI Light" ,sans-serif;
+    /*letter-spacing: 10px;*/
+    transform: rotateY(40deg);
+    text-shadow: 5px 5px 6px whitesmoke;
+    float: left;
+}
+/*==>e 标题*/
+
+
+/*==>s 个人信息*/
+.first .wrap .per-list{
+    width: 560px;
+    float: right;
+}
+.first .wrap .per-list .per-li {
+    float: left;
+    width: 170px;
+    height: 63.2px;
+    line-height: 63.2px;
+    text-align: center;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    margin: 0 5px;
+    /*border-top: none;*/
+    position: relative;
+    transform-style: preserve-3d;
+}
+.first .wrap .per-list .per-li .iconfont{
+    width: 170px;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    backface-visibility: visible;
+    background-color: #f2f2f2;
+    transition: transform 1s ease;
+    border-radius: 0 0 10px 10px;
+}
+.first .wrap .per-list .per-li .mes{
+    position: absolute;
+    width: 170px;
+    text-align: center;
+    /*翻转*/
+    transform: rotateY(-180deg);
+    backface-visibility: visible;
+    background-color: #f2f2f2;
+    transition: transform 1s ease;
+    border-radius: 0 0 10px 10px;
+}
+.first .wrap .per-list .per-li:hover .iconfont{
+    transform: rotateY(180deg);
+}
+.first .wrap .per-list .per-li:hover .mes{
+    transform: none;
+}
+/*==》e 个人信息*/
+
+
+/*==》s 诗词*/
+.first .text-wrap{
+    width: 1300px;
+    height: 600px;
+    margin: 10px auto;
+    border-left: 2px solid whitesmoke;
+    overflow: hidden;
+    /*box-shadow: 1px 1px 5px whitesmoke;*/
+}
+.first .text-wrap .text{
+    width: 340px;
+    display: block;
+    float: left;
+    transition: transform 3s ease;
+    line-height: 24px;
+    font-size: 15px;
+}
+.first .text-wrap .text:hover{
+    transform: translateY(-400px);
+}
+/*==》e 诗词部分*/
+
+
+
+/*==》s 图*/
+.first .text-wrap .pic-wall{
+    width: 940px;
+    height: 600px;
+    float: left;
+    margin: 0 10px;
+}
+.first .text-wrap .pic-wrap {
+    width: 940px;
+    height: 200px;
+}
+.first .text-wrap .pic-wall .pic-wrap .pic-tv-wrap{
+    width: 330px;
+    height: 200px;
+    float: left;
+    background: url("../img/电视机.jpg") ;
+    background-size: cover;
+    padding:19px 19px;
+    box-sizing: border-box;
+}
+.first .text-wrap .pic-wall .pic-tv-wrap .pic-tv{
+    width: 290px;
+    height: 164px;
+    position: relative;
+    overflow: hidden;
+}
+.first .text-wrap .pic-wall .pic-wrap .pic-tv  .source-list{
+    width:2030px;
+    position: absolute;
+    left: 0;
+}
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li{
+    width: 290px;
+    height: 165px;
+    float: left;
+    background-color: #4BBFC3;
+}
+
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(1){
+    background: url("../img/黑板.jpg");
+    background-size: cover;
+}
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(2){
+    background: url("../img/MNm5qPx2me.jpg") ;
+    background-size: cover;
+}
+
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(3){
+    background: url("../img/青春3.jpg");
+    background-size: cover;
+}
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(4){
+    background: url("../img/青春四.jpg");
+    background-size: cover;
+}
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(5){
+    background: url("../img/RdP9VdnNYy.jpg");
+    background-size: cover;
+}
+.first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(6){
+    background: url("../img/黑板.jpg");
+    background-size: cover;
+}
+
+/*==》e 图*/
+
+/*==》 按钮*/
+.first .text-wrap .pic-wall .pic-tv .con-list {
+    /*text-align: center;*/
+    position:absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -30px;
+}
+.first .text-wrap .pic-wall .pic-tv .con-list li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 5px;
+    line-height: 20px;
+    float: left;
+    margin: 0 5px ;
+    text-align: center;
+    cursor: pointer;
+}
+.first .text-wrap .pic-wall .pic-tv .con-list li.biger{
+    width: 25px;
+    height: 25px;
+    line-height: 30px;
+}
+.first .text-wrap .pic-wall .pic-tv .con-list li.smaller{
+    width: 15px;
+    height: 15px;
+    line-height: 10px;
+}
+.first .text-wrap .pic-wall .pic-tv .con-list li:first-child{
+    background: #63a35c;
+}
+.first .text-wrap .pic-wall .pic-tv .con-list li:nth-child(2){
+    background: palevioletred;
+}
+
+.first .text-wrap .pic-text{
+    text-indent: 2em;
+    width: 600px;
+    height: 200px;
+    float: left;
+    margin: 0 5px;
+    line-height: 30px;
+    background: white;
+    border-bottom: 2px solid #cccccc;
+    border-right: 3px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 20px 0 30px 0 ;
+}
+
+
+/*==>s 回忆录*/
+.first .text-wrap .pic-wall .mes-wrap{
+    width: 940px;
+    height: 400px;
+    float: left;
+    margin: 10px 0;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes{
+    float: left;
+    width: 330px;
+    height: 400px;
+    line-height: 50px;
+    background: #cccccc;
+    border-radius: 0 40px 0 0;
+    position: relative;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .mes-title {
+    /*color: gold;*/
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: purple;
+}
+
+.first .text-wrap .pic-wall .mes-wrap .mes .name{
+    width: 330px;
+    height: 50px;
+    color: blue;
+    position: relative;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .time{
+    width: 330px;
+    height: 50px;
+    color: red;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .mes-people{
+    width: 330px;
+    height: 50px;
+    color: blueviolet;
+    position: relative;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes span{
+    color: black;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .name span{
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    cursor: pointer;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .name #name{
+   text-indent: 1em;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .mes-people #people{
+    text-indent: 1em;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .mes-people span{
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+    cursor: pointer;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .youth-title{
+    color: green;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .youth-title span{
+    position: absolute;
+    right: 36px;
+    bottom: 0;
+    cursor: pointer;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .youth-title #youth{
+    text-indent: 1em;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .youth-list{
+    width: 330px;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes .youth-list .youth-li{
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    background: #f2f2f2;
+    margin: 5px 20px;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes  #recode{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+.first .text-wrap .pic-wall .mes-wrap .mes #deleteAll{
+    position: absolute;
+    right: 40px;
+    bottom: 5px;
+}
+    /*==>e 回忆录*/
+
+/*==》s 信封*/
+.first .text-wrap .pic-wall .mes-wrap .envelope{
+    margin: 0 5px;
+    width: 600px;
+    height: 400px;
+    float: left;
+    background: url("../img/信封.jpg") no-repeat;
+    background-size: 600px 400px;
+    border-radius: 0 15px 0 0 ;
+    position: relative;
+}
+
+.first .text-wrap .pic-wall .mes-wrap .envelope .envelope-tile{
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    font-size: 14px;
+    color: blueviolet;
+    font-family: "Sitka Small",sans-serif;
+
+}
+.first .text-wrap .pic-wall .mes-wrap .envelope .envelope-content{
+    width: 450px;
+    height: 220px;
+    text-indent: 2em;
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
+    top: 115px;
+    border: 0;
+    outline: none;
+    resize: none;
+    color: #282828;
+}
+.first .text-wrap .pic-wall .mes-wrap .envelope .envelope-date{
+    position: absolute;
+    right: 80px;
+    bottom: 50px;
+    color: red;
+}
+.first .text-wrap .pic-wall .mes-wrap .envelope .envelope-name{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+    color:blue;
+}
+
+
+
+/*==》e 信封*/
+
+
+
+
+
