@@ -1,6 +1,6 @@
 /*=====第一个页面=====*/
 body{
-    background:url("../img/晴空.jpg") no-repeat ;
+    background:url("../img/sky.jpg") no-repeat ;
     background-size:cover;
 }
 /*==>s 标题*/
@@ -109,7 +109,7 @@ body{
     width: 330px;
     height: 200px;
     float: left;
-    background: url("../img/电视机.jpg") ;
+    background: url("../img/TV.jpg") ;
     background-size: cover;
     padding:19px 19px;
     box-sizing: border-box;
@@ -133,28 +133,28 @@ body{
 }
 
 .first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(1){
-    background: url("../img/黑板.jpg");
+    background: url("../img/pic1.jpg");
     background-size: cover;
 }
 .first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(2){
-    background: url("../img/MNm5qPx2me.jpg") ;
+    background: url("../img/pic2.jpg") ;
     background-size: cover;
 }
 
 .first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(3){
-    background: url("../img/青春3.jpg");
+    background: url("../img/pic3.jpg");
     background-size: cover;
 }
 .first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(4){
-    background: url("../img/青春四.jpg");
+    background: url("../img/pic4.jpg");
     background-size: cover;
 }
 .first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(5){
-    background: url("../img/RdP9VdnNYy.jpg");
+    background: url("../img/pic5.jpg");
     background-size: cover;
 }
 .first .text-wrap .pic-wall .pic-tv  .source-list .source-li:nth-child(6){
-    background: url("../img/黑板.jpg");
+    background: url("../img/pic1.jpg");
     background-size: cover;
 }
 
